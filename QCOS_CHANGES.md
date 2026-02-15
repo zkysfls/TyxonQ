@@ -111,7 +111,7 @@ results = c.run(
     wait_async_result=True,
 )
 
-print(results[0]["result"])  # e.g. {"00": 52, "11": 48}
+print(results[0]["result"])  # e.g. {"00": 46, "11": 54}
 ```
 
 Credentials can also be set via environment variables instead of passing them every time:
